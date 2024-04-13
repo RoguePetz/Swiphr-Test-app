@@ -2,4 +2,25 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.dash-holder{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(236, 236, 236);
+    border-radius: 25px;
+
+}
+
+.pfp2{
+    width: 150px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+}
+
+.description{
+    width: 700px;
 }
