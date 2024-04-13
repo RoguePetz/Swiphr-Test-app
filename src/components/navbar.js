@@ -6,6 +6,7 @@ import notificationimage from './assets/icons/notification.png'
 import messageimage from './assets/icons/message-question.png'
 import logo from './assets/icons/logo.png'
 import pfp from './assets/icons/pfp.png'
+import title from './assets/icons/title.png'
 
 
 
@@ -14,8 +15,8 @@ const Navbar = () => {
         <div className='nav-container' >
             <div className='nav-main'>
                 <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                    <img src={logo} width={'20px'} height={'20px'}/>
-                    <p>Swiphr</p>
+                    <img src={logo} width={'25px'} height={'25px'}/>
+                    <img src={title}  height={'20px'}/>
                 </div>
                 <div style={{display:'flex',gap:'20px'}}>
                     <p>Home</p>
