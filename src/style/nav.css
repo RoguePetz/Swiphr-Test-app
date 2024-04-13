@@ -11,3 +11,10 @@
     margin-left: 60px;
     margin-right: 60px;
 }
+
+.clicked{
+    background-color: #8113DD;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}

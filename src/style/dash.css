@@ -44,3 +44,36 @@
     width: 630px;
     
 }
+.dash-holder2{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(236, 236, 236);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 1290px;
+}
+
+.top-tables{
+    background-color: #3D006C;
+    padding: 10px;
+    color: #fff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.top-table{
+    border: solid thin rgb(236, 236, 236);
+}
+
+.di{
+    background-color: #8113DD;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.di2{
+    border: solid  #8113DD;
+    border-radius: 25px;
+    padding: 10px;
+}

@@ -13,6 +13,16 @@ import viewall from './assets/icons/view all.png'
 import product1 from './assets/icons/product1.png'
 import product2 from './assets/icons/product2.png'
 import product3 from './assets/icons/product3.png'
+import heading from './assets/icons/heading.png'
+import tname from './assets/icons/p-price (4).png'
+import date from './assets/icons/p-price (3).png'
+import orderno from './assets/icons/p-price (2).png'
+import pricee from './assets/icons/p-price (1).png'
+import completed from './assets/icons/p-price (6).png'
+import pending from './assets/icons/p-price (5).png'
+import pimg from './assets/icons/Ellipse 10.png'
+import astore from './assets/icons/Adam-son Store.png'
+
 
 import rise from './assets/icons/stock rise.png'
 const DashC = () => {
@@ -25,12 +35,12 @@ const DashC = () => {
                         <img src={pfp2} className='pfp2'/>
                         <div style={{marginTop:'70px', display:'flex', alignItems:'center',justifyContent:'space-between'}}>
                             <div>
-                                <h1 >Adam-son Store</h1>
+                            <img src={astore}/>
                                 <p className='description'>Another way to improve the readability of a website or app is to use clear and concise navigation. This helps to make it easy for you to find the information or features that you are looking for. It also helps to prevent you from becoming lost or overwhelmed.</p>
                             </div>
-                            <div style={{display:'flex'}}>
-                                <div>Edit storfront</div>
-                                <div>Add product</div>
+                            <div style={{display:'flex', gap:'10px'}}>
+                                <div className='di2'>Edit storefront</div>
+                                <div className='di'>Add product</div>
                             </div>
                         </div>
                     </div>
@@ -88,6 +98,64 @@ const DashC = () => {
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div style={{display:'flex',justifyContent:'center'}}>
+                <div className='dash-holder2'>
+                    <div style={{margin:'20px'}}>
+                            <img src={heading} />
+                            <div style={{marginTop:'20px'}}>
+                                <div className='top-tables'>
+                                    <div style={{display:'flex',justifyContent:'space-between',}}>
+                                        <label>Product name</label>
+                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
+                                            <label>Date</label>
+                                            <label>Order number</label>
+                                            <label>Price</label>
+                                            <label>status</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='top-table'>
+                                    <div style={{display:'flex',justifyContent:'space-between',margin:'20px'}}>
+                                    <div style={{display:'flex',gap:'10px'}}>
+                                        <img src={pimg} />
+                                        <div style={{display:'flex',flexDirection:'column'}}>
+                                            <label>Product name</label>
+                                            <label>Product description</label>
+                                        </div>
+                                    </div>
+
+                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
+                                            <img src={date} width={'65px'} height={'20px'}/>
+                                            <img src={orderno} width={'70px'} height={'15px'}/>
+                                            <img src={pricee} width={'65px'} height={'15px'}/>
+                                            <img src={completed} width={'75px'} height={'30px'}/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='top-table'>
+                                    <div style={{display:'flex',justifyContent:'space-between',margin:'20px'}}>
+                                    <div style={{display:'flex',gap:'10px'}}>
+                                        <img src={pimg} />
+                                        <div style={{display:'flex',flexDirection:'column'}}>
+                                            <label>Product name</label>
+                                            <label>Product description</label>
+                                        </div>
+                                    </div>
+
+                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
+                                            <img src={date} width={'65px'} height={'20px'}/>
+                                            <img src={orderno} width={'70px'} height={'15px'}/>
+                                            <img src={pricee} width={'65px'} height={'15px'}/>
+                                            <img src={pending} width={'75px'} height={'30px'}/>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                            </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
