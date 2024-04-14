@@ -49,9 +49,9 @@ const DashC = () => {
                 
                 </div>
                 <div style={{display:'flex',justifyContent:'center', alignItems:'center' }}>
-                    <div style={{width:'auto'}}>
+                    <div style={{width:'1180px'}}>
                         <p style={{fontWeight:'bolder',marginTop:'40px'}}>Overview</p>
-                        <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:'20px'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:'10px'}}>
                             <Card
                                 img ={price1}
                                 img2 ={rise}
@@ -67,7 +67,7 @@ const DashC = () => {
                         </div>
                     </div>
                 </div>
-                <div  style={{display:'flex',justifyContent:'space-between', alignItems:'center',marginTop:'50px',width:'1250px'}}>
+                <div  style={{display:'flex',justifyContent:'space-between', alignItems:'center',marginTop:'50px',width:'1180px'}}>
                     <div className='chart'>
                         <div style={{margin:'20px'}}>
                             <div style={{display:'flex',justifyContent:'space-between'}}>
