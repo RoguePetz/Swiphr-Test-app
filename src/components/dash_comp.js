@@ -33,9 +33,9 @@ const DashC = () => {
                     <div style={{padding:'30px'}}>
                         <img className='banner' src={banner}/>
                         <img src={pfp2} className='pfp2'/>
-                        <div style={{marginTop:'70px', display:'flex', alignItems:'center',justifyContent:'space-between'}}>
+                        <div style={{marginTop:'40px', display:'flex', alignItems:'center',justifyContent:'space-between'}}>
                             <div>
-                            <img src={astore}/>
+                                <h1 className='store-name'>Adam-son Store</h1>
                                 <p className='description'>Another way to improve the readability of a website or app is to use clear and concise navigation. This helps to make it easy for you to find the information or features that you are looking for. It also helps to prevent you from becoming lost or overwhelmed.</p>
                             </div>
                             <div style={{display:'flex', gap:'10px'}}>

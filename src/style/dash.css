@@ -1,4 +1,21 @@
 
+@font-face {
+    font-family: 'Hornbill Personal Use';
+    src: url('../components/assets/fonts/hornbill-personal-use.regular.otf') format('opentype');
+    font-display:swap;
+  }
+ 
+ @font-face {
+    font-family: 'Aeonik';
+    src: url('../components/assets/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+    font-display:swap;
+  }
+  
+  @font-face {
+    font-family: 'Aeonik-Bold';
+    src: url('../components/assets/fonts/AeonikTRIAL-Bold.otf') format('opentype');
+    font-display:swap;
+  }
 
 
 .dash-container{
@@ -20,14 +37,19 @@
 .pfp2{
     width: 150px;
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 180px;
 }
 
 .description{
     width: 700px;
+    font-family: 'Aeonik';
 }
+.store-name{
+    font-family: 'Hornbill Personal Use';
+    font-size:50px;
 
+}
 .card_body{
     border: solid rgb(236, 236, 236);
     border-radius: 10px;
