@@ -19,14 +19,14 @@ const Navbar = () => {
                     <img src={logo} width={'25px'} height={'25px'}/>
                     <img src={title}  height={'20px'}/>
                 </div>
-                <div style={{display:'flex',gap:'20px',alignItems:'center'}}>
+                <div className='navi' style={{display:'flex',gap:'20px',alignItems:'center'}}>
                     <p>Home</p>
                     <p className='clicked'>Dashboard</p>
                     <p>Product</p>
                     <p>Orders</p>
                     <p>Finance</p>
                 </div>
-                <div style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'20px'}}>
+                <div className='navi' style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'20px'}}>
                     <div style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'10px'}}>
                         <img src={notificationimage}/>
                         <img src={settingsimage}/>

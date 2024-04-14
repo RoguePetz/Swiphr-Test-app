@@ -31,7 +31,7 @@ const DashC = () => {
             <div className='dash-container'>
                 <div className='dash-holder'>
                     <div style={{padding:'30px'}}>
-                        <img src={banner}/>
+                        <img className='banner' src={banner}/>
                         <img src={pfp2} className='pfp2'/>
                         <div style={{marginTop:'70px', display:'flex', alignItems:'center',justifyContent:'space-between'}}>
                             <div>
@@ -72,7 +72,7 @@ const DashC = () => {
                         <div style={{display:'flex',justifyContent:'space-between'}}>
                             <div style={{display:'flex',flexDirection:'column'}}>
                                 <label>Real-Time Sales</label>
-                                <label>Here are the monthly sales stats</label>
+                                <label style={{color:'grey', fontSize:'13px', opacity:'50%'}}>Here are the monthly sales stats</label>
                             </div>
                             <img src={order} height={'20px'}/>
                         </div>
@@ -86,9 +86,9 @@ const DashC = () => {
                         <div style={{display:'flex',justifyContent:'space-between'}}>
                             <div style={{display:'flex',flexDirection:'column'}}>
                                 <label>Top Product</label>
-                                <label>Here are the most recent financial transaction</label>
+                                <label style={{color:'grey', fontSize:'13px', opacity:'50%'}}>Here are the most recent financial transaction</label>
                             </div>
-                            <img src={viewall} height={'10px'}/>
+                            <label>view all</label>
                         </div>
                         <div style={{marginTop:'10px',display:'flex',flexWrap:'wrap', justifyContent:'space-between'}}>
                             <img src={product1} />   
@@ -108,7 +108,7 @@ const DashC = () => {
                                 <div className='top-tables'>
                                     <div style={{display:'flex',justifyContent:'space-between',}}>
                                         <label>Product name</label>
-                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
+                                        <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
                                             <label>Date</label>
                                             <label>Order number</label>
                                             <label>Price</label>
@@ -126,10 +126,10 @@ const DashC = () => {
                                         </div>
                                     </div>
 
-                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
-                                            <img src={date} width={'65px'} height={'20px'}/>
-                                            <img src={orderno} width={'70px'} height={'15px'}/>
-                                            <img src={pricee} width={'65px'} height={'15px'}/>
+                                        <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
+                                            <label>12-April-2023</label>
+                                            <label>#1234567</label>
+                                            <label>N10,000</label>
                                             <img src={completed} width={'75px'} height={'30px'}/>
                                         </div>
                                     </div>
@@ -144,10 +144,10 @@ const DashC = () => {
                                         </div>
                                     </div>
 
-                                        <div style={{display:'flex',width:'800px',justifyContent:'space-between'}} >
-                                            <img src={date} width={'65px'} height={'20px'}/>
-                                            <img src={orderno} width={'70px'} height={'15px'}/>
-                                            <img src={pricee} width={'65px'} height={'15px'}/>
+                                        <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
+                                            <label>12-April-2023</label>
+                                            <label>#1234567</label>
+                                            <label>N10,000</label>
                                             <img src={pending} width={'75px'} height={'30px'}/>
                                         </div>
                                     </div>
