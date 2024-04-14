@@ -89,7 +89,7 @@ const DashC = () => {
                                 </div>
                                 <label>view all</label>
                             </div>
-                            <div style={{marginTop:'10px',display:'flex',flexWrap:'wrap', justifyContent:'space-between'}}>
+                            <div style={{marginTop:'10px',display:'flex',flexWrap:'wrap', justifyContent:'space-between',gap:'10px'}}>
                                 <img src={product1} />
                                 <img src={product2} />
                                 <img src={product3} />
@@ -120,7 +120,7 @@ const DashC = () => {
                                             <img src={pimg} />
                                             <div style={{display:'flex',flexDirection:'column',paddingRight:'100px'}}>
                                                 <label>Product name</label>
-                                                <label style={{width:'200px'}}>Product description</label>
+                                                <label style={{width:'150px'}}>Product description</label>
                                             </div>
                                         </div>
                                             <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
