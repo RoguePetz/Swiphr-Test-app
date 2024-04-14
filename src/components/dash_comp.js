@@ -101,7 +101,10 @@ const DashC = () => {
                 <div style={{display:'flex',justifyContent:'center'}}>
                     <div className='dash-holder2'>
                         <div style={{margin:'20px'}}>
-                                <img src={heading} />
+                        <div style={{display:'flex',flexDirection:'column'}}>
+                                    <label>Recent Orders</label>
+                                    <label style={{color:'grey', fontSize:'13px', opacity:'50%'}}>Here are the most recent financial transaction</label>
+                                </div>
                                 <div style={{marginTop:'20px'}}>
                                     <div className='top-tables'>
                                         <div style={{display:'flex',justifyContent:'space-between',}}>
