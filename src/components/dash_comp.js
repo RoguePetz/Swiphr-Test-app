@@ -105,12 +105,29 @@ const DashC = () => {
                                 <div style={{marginTop:'20px'}}>
                                     <div className='top-tables'>
                                         <div style={{display:'flex',justifyContent:'space-between',}}>
-                                            <label>Product name</label>
+                                            <label style={{marginLeft:'20px'}}>Product name</label>
                                             <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
                                                 <label>Date</label>
                                                 <label>Order number</label>
                                                 <label>Price</label>
-                                                <label>status</label>
+                                                <label style={{marginRight:'20px'}}>status</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='top-table'>
+                                        <div style={{display:'flex',justifyContent:'space-between',margin:'20px'}}>
+                                        <div style={{display:'flex',gap:'10px'}}>
+                                            <img src={pimg} />
+                                            <div style={{display:'flex',flexDirection:'column',paddingRight:'100px'}}>
+                                                <label>Product name</label>
+                                                <label style={{width:'200px'}}>Product description</label>
+                                            </div>
+                                        </div>
+                                            <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
+                                                <label>12-April-2023</label>
+                                                <label>#1234567</label>
+                                                <label  style={{marginLeft:'70px'}}>N10,000</label>
+                                                <img  src={completed} width={'70px'} height={'30px'}/>
                                             </div>
                                         </div>
                                     </div>
@@ -126,24 +143,7 @@ const DashC = () => {
                                             <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
                                                 <label>12-April-2023</label>
                                                 <label>#1234567</label>
-                                                <label>N10,000</label>
-                                                <img src={completed} width={'75px'} height={'30px'}/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='top-table'>
-                                        <div style={{display:'flex',justifyContent:'space-between',margin:'20px'}}>
-                                        <div style={{display:'flex',gap:'10px'}}>
-                                            <img src={pimg} />
-                                            <div style={{display:'flex',flexDirection:'column'}}>
-                                                <label>Product name</label>
-                                                <label>Product description</label>
-                                            </div>
-                                        </div>
-                                            <div className='twidth' style={{display:'flex',justifyContent:'space-between'}} >
-                                                <label>12-April-2023</label>
-                                                <label>#1234567</label>
-                                                <label>N10,000</label>
+                                                <label style={{marginLeft:'70px'}}>N10,000</label>
                                                 <img src={pending} width={'75px'} height={'30px'}/>
                                             </div>
                                         </div>
