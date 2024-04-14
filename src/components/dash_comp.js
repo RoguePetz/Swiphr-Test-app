@@ -51,7 +51,7 @@ const DashC = () => {
                 <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
                     <div style={{width:'1300px'}}>
                         <p style={{fontWeight:'bolder',marginTop:'40px'}}>Overview</p>
-                        <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:'20px'}}>
                             <Card
                                 img ={price1}
                                 img2 ={rise}
