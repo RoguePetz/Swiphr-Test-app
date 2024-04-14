@@ -27,8 +27,8 @@ import astore from './assets/icons/Adam-son Store.png'
 import rise from './assets/icons/stock rise.png'
 const DashC = () => {
     return(
-        <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>>
-            <div style={{display:'flex', flexDirection:'column', justifyContent:'center', width:'1280px', alignItems:'center'}}>
+        <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+            <div className='every' style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',}}>
                 <div className='dash-container'>
                     <div className='dash-holder'>
                         <div style={{padding:'30px'}}>
@@ -48,8 +48,8 @@ const DashC = () => {
                     </div>
                 
                 </div>
-                <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
-                    <div style={{width:'1300px'}}>
+                <div style={{display:'flex',justifyContent:'center', alignItems:'center' }}>
+                    <div style={{width:'auto'}}>
                         <p style={{fontWeight:'bolder',marginTop:'40px'}}>Overview</p>
                         <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:'20px'}}>
                             <Card
@@ -67,7 +67,7 @@ const DashC = () => {
                         </div>
                     </div>
                 </div>
-                <div  style={{display:'flex',justifyContent:'center', alignItems:'center',gap:'30px',marginTop:'50px'}}>
+                <div  style={{display:'flex',justifyContent:'space-between', alignItems:'center',marginTop:'50px',width:'1250px'}}>
                     <div className='chart'>
                         <div style={{margin:'20px'}}>
                             <div style={{display:'flex',justifyContent:'space-between'}}>

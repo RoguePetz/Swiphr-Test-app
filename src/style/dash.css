@@ -64,7 +64,8 @@
     flex-direction: column;
     border: solid rgb(236, 236, 236);
     border-radius: 10px;
-    width: 630px;
+    width: auto;
+    
     
 }
 .dash-holder2{
