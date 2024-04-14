@@ -27,8 +27,8 @@ import astore from './assets/icons/Adam-son Store.png'
 import rise from './assets/icons/stock rise.png'
 const DashC = () => {
     return(
-        <div>
-            <div style={{marginLeft:'20px',marginRight:'20px'}}>
+        <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>>
+            <div style={{display:'flex', flexDirection:'column', justifyContent:'center', width:'1280px', alignItems:'center'}}>
                 <div className='dash-container'>
                     <div className='dash-holder'>
                         <div style={{padding:'30px'}}>

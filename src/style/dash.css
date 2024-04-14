@@ -24,14 +24,12 @@
     width: 100%;
     align-items: center;
     margin-top: 50px;
-}
-
-.dash-holder{
-    width: 1280px; 
     border: solid rgb(236, 236, 236);
     border-radius: 10px;
-
+    
 }
+
+
 
 .pfp2{
     width: 150px;
